@@ -3,7 +3,7 @@ services:
   webserver:
     image: 0xelasyaf/nginx:latest
     container_name: nginx
-    port:
+    ports:
         - '80:80'
     environment:
         - URL=<your_FQDN> # you can change this with "localhost" if you want to local connection
