@@ -5,7 +5,7 @@ services:
     container_name: nginx
     port:
         - '80:80'
-    enironment:
+    environment:
         - URL=<your_FQDN> # you can change this with "localhost" if you want to local connection
 
 
